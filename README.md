@@ -1,8 +1,8 @@
-# ft_printf
-https://github.com/nkarapet42/42circus/assets/157054887/869125a7-a7b6-4bb1-949d-a0c73e4e5e0c
-## Grade: 100/100
+<h1 align="center" id="title">ft_printf</h1>
 
-###  Subject: [ft_printf en_subject](./extras/en.subject_ft_printf.pdf)
+<p align="center"><img src="https://socialify.git.ci/nkarapet42/ft_printf/image?font=KoHo&language=1&logo=https%3A%2F%2Fgithub.com%2Fnkarapet42%2Fft_printf%2Fassets%2F157054887%2Feefbc507-03a0-423d-9163-754fbd2dc75e&name=1&owner=1&pattern=Brick%20Wall&theme=Light" alt="ft_printf" /></p>
+
+## Grade: 100/100
 
 #### ft_printf() Available Specifiers:  
 `%c` - Prints a single character  
