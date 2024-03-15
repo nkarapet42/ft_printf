@@ -16,6 +16,30 @@
 `make` or `make all` - Makes _libftprintf.a_    
 `make clean` - Deletes all the resulting object files  
 `make fclean` - Deletes _libftprintf.a_ and all the resulting object files  
-`make re` - Deletes everything (object files and _libftprintf.a_) and rebuilds _libftprintf.a_  
+`make re` - Deletes everything (object files and _libftprintf.a_) and rebuilds _libftprintf.a_ 
 
 ##### To keep track of what's inside your resulting _libftprintf.a_ run `ar -t libftprintf.a`
+
+### Basic Usage
+For example, let's create a ``main.c`` file.
+
+```c
+// Include the header
+#include "ft_printf.h"
+
+int main(void)
+{
+      // Call the function
+      ft_printf("Hello World");
+      return (0);
+}
+```
+
+Compile the ``main.c`` file with the ft_printf library and run the program:
+```bash
+cc main.c libftprintf.a && ./a.out
+```
+Output should be:
+```
+Hello World
+```
